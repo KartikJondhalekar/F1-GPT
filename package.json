@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seed": "ts-node ./scripts/loadDb.ts",
+    "seed": "tsx ./scripts/loadDb.ts",
     "lint": "eslint"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "langchain": "^0.1.36",
     "next": "16.1.0",
     "openai": "^4.41.0",
+    "puppeteer": "^19.11.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "ts-node": "^10.9.2"
@@ -25,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.0",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
