@@ -1,8 +1,8 @@
 # F1 GPT - AI Racing Intelligence
 
-A modern, full-stack **Formula 1 chatbot** powered by **GPT-5-nano** and **Retrieval Augmented Generation (RAG)** built with Next.js and Astra DB. Users can ask anything about Formula 1 racing and receive intelligent, context-aware responses enhanced by a vector database of F1 knowledge—all through a sleek, animated interface.
+A modern, full-stack **Formula 1 chatbot** powered by **GPT-4o-mini** and **Retrieval Augmented Generation (RAG)** built with Next.js and Astra DB. Users can ask anything about Formula 1 racing and receive intelligent, context-aware responses enhanced by a vector database of F1 knowledge—all through a sleek, animated interface.
 
-![Tech Stack](https://img.shields.io/badge/Tech-Next.js%20%7C%20AI%20SDK%20%7C%20Astra%20DB-blue) ![AI](https://img.shields.io/badge/AI-GPT--5--nano%20%7C%20RAG-green) ![UI](https://img.shields.io/badge/UI-Glassmorphism%20%7C%20Animated-purple)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js) ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript) ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai) ![Astra DB](https://img.shields.io/badge/Astra%20DB-Vector-5A67D8) ![CSS3](https://img.shields.io/badge/CSS3-Glassmorphism-1572B6?logo=css3) ![Tailwind](https://img.shields.io/badge/Tailwind-Utilities-06B6D4?logo=tailwindcss) ![UI](https://img.shields.io/badge/UI-Glassmorphism%20%7C%20Animated-purple)
 
 ---
 
@@ -50,15 +50,15 @@ A modern, full-stack **Formula 1 chatbot** powered by **GPT-5-nano** and **Retri
     └────┬─────┘
          │ HTTP Streaming
          ↓
-┌────────────────────────────┐
-│           API Route        │  /api/chat
-│        (Edge Runtime)      │
-└─────┬──────────────┬───────┘
-      │              │
-  ┌───▼─────┐ ┌──────▼──────┐
-  │ GPT-4o- │ │   Astra DB  │
-  │  mini   │ │   (Vector)  │
-  └─────────┘ └─────────────┘
+┌────────────────────┐
+│   API Route        │  /api/chat
+│   (Edge Runtime)   │
+└─────┬─────────┬────┘
+      │         │
+  ┌───▼────┐ ┌──▼──────────┐
+  │ GPT-4o-│ │  Astra DB   │
+  │ mini   │ │  (Vector)   │
+  └────────┘ └─────────────┘
      │            │
      └────┬───────┘
           │
@@ -88,7 +88,7 @@ A modern, full-stack **Formula 1 chatbot** powered by **GPT-5-nano** and **Retri
 
 ### AI & Backend
 - **AI SDK 5** (Vercel) – Unified AI integration
-- **OpenAI GPT-5-nano** – Latest fast model
+- **OpenAI GPT-4o-mini** – Fast, efficient model
 - **OpenAI Embeddings** – text-embedding-3-small (1536 dimensions)
 - **Astra DB** – DataStax vector database
 - **Next.js API Routes** – Serverless backend
@@ -124,7 +124,7 @@ f1-gpt/
 │       └── assets/
 │           └── F1GPTLogo.svg     # Animated F1 + checkered flag logo
 │
-├── .env                          # Environment variables (API keys)
+├── .env.local                    # Environment variables (API keys)
 ├── package.json                  # Dependencies
 ├── tsconfig.json                 # TypeScript config
 └── next.config.ts                # Next.js config
@@ -163,7 +163,7 @@ f1-gpt/
 
 ### AI Integration
 - Implemented production-ready RAG architecture with vector search
-- Integrated GPT-5-nano with streaming responses for real-time UX
+- Integrated GPT-4o-mini with streaming responses for real-time UX
 - Optimized embedding generation and vector similarity matching
 - Designed context management for token-efficient AI queries
 - Built type-safe AI SDK implementation with TypeScript
@@ -202,7 +202,7 @@ f1-gpt/
 
 ```bash
 # Clone the repository
-git clone https://github.com/KartikJondhalekar/F1-GPT.git
+git clone https://github.com/KartikJondhalekar/F1-GPT
 cd f1-gpt
 
 # Install dependencies
@@ -297,7 +297,7 @@ Open [http://localhost:3000](http://localhost:3000) to see your app.
 ## 🎯 Project Highlights
 
 - **Production-ready RAG** – Full vector search implementation with Astra DB
-- **Latest AI models** – GPT-5-nano for fastest responses
+- **Latest AI models** – GPT-4o-mini for fast, efficient responses
 - **Type-safe architecture** – Complete TypeScript coverage
 - **Modern UI/UX** – Glassmorphism, animations, smooth transitions
 - **Optimized performance** – 2-4 second response times
@@ -380,7 +380,7 @@ This project is open source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-**[Your Name]**
+**[Kartik Jayram Jondhalekar]**
 
 [![GitHub](https://img.shields.io/badge/GitHub-YourUsername-black?logo=github)](https://github.com/KartikJondhalekar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/kartik-jondhalekar)
@@ -393,7 +393,7 @@ Built with cutting-edge AI technologies and modern web frameworks to demonstrate
 
 **Technologies Used:**
 - Vercel AI SDK for unified AI integration
-- OpenAI GPT-4o-mini for intelligent responses
+- OpenAI GPT-4o-mini for intelligent, fast responses
 - DataStax Astra DB for vector similarity search
 - Next.js 16 for modern React development
 - TypeScript for type-safe code
