@@ -6,6 +6,21 @@ A modern, full-stack **Formula 1 chatbot** powered by **GPT-4o-mini** and **Retr
 
 ---
 
+## 📸 Preview
+
+<div align="center">
+  <img src="./screenshots/f1-gpt-demo.png" alt="F1 GPT Chat Interface" width="800"/>
+  <p><em>F1 GPT in action - Real-time streaming responses with glassmorphism UI</em></p>
+</div>
+
+### 🎬 Key Features Demo
+
+| Feature | Preview |
+|---------|---------|
+| **Chat Interface** | ![Chat Demo](./demo.mp4) 
+
+---
+
 ## ✨ Features
 
 ### 🏎️ Intelligent Chat
@@ -50,14 +65,14 @@ A modern, full-stack **Formula 1 chatbot** powered by **GPT-4o-mini** and **Retr
     └────┬─────┘
          │ HTTP Streaming
          ↓
-┌────────────────────┐
-│   API Route        │  /api/chat
-│   (Edge Runtime)   │
-└─────┬─────────┬────┘
+┌───────────────────────┐
+│   API Route           │  /api/chat
+│   (Edge Runtime)      │
+└─────┬─────────┬───────┘
       │         │
   ┌───▼────┐ ┌──▼──────────┐
   │ GPT-4o-│ │  Astra DB   │
-  │ mini   │ │  (Vector)   │
+  │  mini  │ │  (Vector)   │
   └────────┘ └─────────────┘
      │            │
      └────┬───────┘
