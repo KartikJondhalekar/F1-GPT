@@ -9,7 +9,7 @@ A modern, full-stack **Formula 1 chatbot** powered by **GPT-4o-mini** and **Retr
 ## 📸 Preview
 
 <div align="center">
-  <img src="./screenshots/f1-gpt-demo.png" alt="F1 GPT Chat Interface" width="800"/>
+  <img src="./UI.png" alt="F1 GPT Chat Interface" width="800"/>
   <p><em>F1 GPT in action - Real-time streaming responses with glassmorphism UI</em></p>
 </div>
 
@@ -17,7 +17,7 @@ A modern, full-stack **Formula 1 chatbot** powered by **GPT-4o-mini** and **Retr
 
 | Feature | Preview |
 |---------|---------|
-| **Chat Interface** | ![Chat Demo](./demo.mp4) 
+| **Chat Interface** | ![Chat Demo](./Demo.mp4) 
 
 ---
 
