@@ -397,7 +397,7 @@ This project is open source and available under the MIT License.
 
 **[Kartik Jayram Jondhalekar]**
 
-[![GitHub](https://img.shields.io/badge/GitHub-YourUsername-black?logo=github)](https://github.com/KartikJondhalekar)
+[![GitHub](https://img.shields.io/badge/GitHub-KartikJondhalekar-black?logo=github)](https://github.com/KartikJondhalekar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/kartik-jondhalekar)
 
 ---
